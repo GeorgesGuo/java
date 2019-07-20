@@ -30,7 +30,10 @@ public class MultiThreadServer {
             //获取用户输入流。读取用户发来的信息
             try {
                 Scanner in = new Scanner(client.getInputStream());
+<<<<<<< HEAD
                 String strFormClient = " ";
+=======
+>>>>>>> 24b1755a81005b02e77bde8d6ba7912eeeecf3c3
                 while (true){
                     System.out.println("请输入要向服务器发送的信息。。。");
                     String strFromClient ="";
