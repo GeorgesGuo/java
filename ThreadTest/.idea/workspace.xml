@@ -12,6 +12,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="CPTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/project/CPTest.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -26,6 +27,22 @@
                 <element signature="e#1450#1451#0" expanded="true" />
                 <element signature="e#1484#1485#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="WaitTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/thread/WaitTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Object.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/thread/Object.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+>>>>>>> 100754385d8c30384784feb945eeb110acf28ca5
             </state>
           </provider>
         </entry>
@@ -52,12 +69,19 @@
         <option value="$PROJECT_DIR$/src/test/thread/TestPriority.java" />
         <option value="$PROJECT_DIR$/src/test/thread/DeamonThread.java" />
         <option value="$PROJECT_DIR$/src/test/thread/DaemonThread.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/test/thread/ThreadLocalTest.java" />
         <option value="$PROJECT_DIR$/src/test/thread/WaitTest.java" />
         <option value="$PROJECT_DIR$/src/test/thread/ThreadTest.java" />
         <option value="$PROJECT_DIR$/src/test/thread/DeadLock.java" />
         <option value="$PROJECT_DIR$/src/project/CPTest1.java" />
         <option value="$PROJECT_DIR$/src/project/CPTest.java" />
+=======
+        <option value="$PROJECT_DIR$/src/test/thread/ThreadTest.java" />
+        <option value="$PROJECT_DIR$/src/test/thread/DeadLock.java" />
+        <option value="$PROJECT_DIR$/src/test/thread/ThreadLocalTest.java" />
+        <option value="$PROJECT_DIR$/src/test/thread/WaitTest.java" />
+>>>>>>> 100754385d8c30384784feb945eeb110acf28ca5
       </list>
     </option>
   </component>
@@ -70,7 +94,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
+=======
+  <component name="ProjectFrameBounds">
+>>>>>>> 100754385d8c30384784feb945eeb110acf28ca5
     <option name="x" value="949" />
     <option name="width" value="980" />
     <option name="height" value="1031" />
@@ -81,8 +109,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scope" />
       <pane id="PackagesPane" />
+=======
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+>>>>>>> 100754385d8c30384784feb945eeb110acf28ca5
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,6 +142,16 @@
             <path>
               <item name="ThreadTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="ThreadTest" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="ThreadTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ThreadTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThreadTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -116,6 +159,17 @@
               <item name="ThreadTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 100754385d8c30384784feb945eeb110acf28ca5
+            </path>
+            <path>
+              <item name="ThreadTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ThreadTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+=======
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 100754385d8c30384784feb945eeb110acf28ca5
             </path>
             <path>
               <item name="ThreadTest" type="b2602c69:ProjectViewProjectNode" />
@@ -125,14 +179,21 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="AndroidView" />
+=======
+      <pane id="PackagesPane" />
+>>>>>>> 100754385d8c30384784feb945eeb110acf28ca5
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Object&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+>>>>>>> 100754385d8c30384784feb945eeb110acf28ca5
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -149,14 +210,24 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.CPTest">
     <configuration name="CPTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="project.CPTest" />
+=======
+  <component name="RunManager" selected="Application.WaitTest">
+    <configuration name="DaemonThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.thread.DaemonThread" />
+>>>>>>> 100754385d8c30384784feb945eeb110acf28ca5
       <module name="ThreadTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
+<<<<<<< HEAD
           <option name="PATTERN" value="project.*" />
+=======
+          <option name="PATTERN" value="test.thread.*" />
+>>>>>>> 100754385d8c30384784feb945eeb110acf28ca5
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,8 +243,13 @@
         </pattern>
       </extension>
     </configuration>
+<<<<<<< HEAD
     <configuration name="SleepTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.thread.SleepTest" />
+=======
+    <configuration name="ThreadLocalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.thread.ThreadLocalTest" />
+>>>>>>> 100754385d8c30384784feb945eeb110acf28ca5
       <module name="ThreadTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -183,8 +259,13 @@
         </pattern>
       </extension>
     </configuration>
+<<<<<<< HEAD
     <configuration name="ThreadName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.thread.ThreadName" />
+=======
+    <configuration name="ThreadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.thread.ThreadTest" />
+>>>>>>> 100754385d8c30384784feb945eeb110acf28ca5
       <module name="ThreadTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -194,8 +275,13 @@
         </pattern>
       </extension>
     </configuration>
+<<<<<<< HEAD
     <configuration name="ThreadStop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.thread.ThreadStop" />
+=======
+    <configuration name="WaitTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.thread.WaitTest" />
+>>>>>>> 100754385d8c30384784feb945eeb110acf28ca5
       <module name="ThreadTest" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -247,6 +333,7 @@
       <listeners />
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="Application.DeadLock" />
       <item itemvalue="Application.SleepTest" />
       <item itemvalue="Application.ThreadStop" />
@@ -260,6 +347,21 @@
         <item itemvalue="Application.ThreadStop" />
         <item itemvalue="Application.SleepTest" />
         <item itemvalue="Application.DeadLock" />
+=======
+      <item itemvalue="Application.DaemonThread" />
+      <item itemvalue="Application.ThreadTest" />
+      <item itemvalue="Application.DeadLock" />
+      <item itemvalue="Application.ThreadLocalTest" />
+      <item itemvalue="Application.WaitTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.WaitTest" />
+        <item itemvalue="Application.ThreadLocalTest" />
+        <item itemvalue="Application.DeadLock" />
+        <item itemvalue="Application.ThreadTest" />
+        <item itemvalue="Application.DaemonThread" />
+>>>>>>> 100754385d8c30384784feb945eeb110acf28ca5
       </list>
     </recent_temporary>
   </component>
@@ -276,18 +378,28 @@
       <workItem from="1563784639925" duration="12548000" />
       <workItem from="1563878818233" duration="597000" />
       <workItem from="1563929074799" duration="4457000" />
+<<<<<<< HEAD
       <workItem from="1564057976255" duration="3314000" />
       <workItem from="1564069775697" duration="599000" />
       <workItem from="1564223768236" duration="3771000" />
+=======
+>>>>>>> 100754385d8c30384784feb945eeb110acf28ca5
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="25286000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
+=======
+    <option name="totallyTimeSpent" value="17602000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="633" y="0" width="653" height="687" extended-state="0" />
+>>>>>>> 100754385d8c30384784feb945eeb110acf28ca5
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -299,24 +411,41 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" weight="0.33097345" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2174616" />
       <window_info anchor="right" id="Database" order="3" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33213645" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.51932776" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+>>>>>>> 100754385d8c30384784feb945eeb110acf28ca5
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964157" />
+=======
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+>>>>>>> 100754385d8c30384784feb945eeb110acf28ca5
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Find" order="1" />
+=======
+>>>>>>> 100754385d8c30384784feb945eeb110acf28ca5
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,6 +460,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/thread/SleepTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -484,6 +614,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 100754385d8c30384784feb945eeb110acf28ca5
     <entry file="file://$PROJECT_DIR$/src/test/thread/CallableTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -621,6 +753,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/thread/WaitTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -677,12 +810,68 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/thread/CallableTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/thread/ThreadName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/thread/SleepTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/thread/ThreadStop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/thread/TestPriority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/thread/ThreadTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/thread/ThreadTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+>>>>>>> 100754385d8c30384784feb945eeb110acf28ca5
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/thread/DaemonThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
+<<<<<<< HEAD
           <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
@@ -735,6 +924,37 @@
             <element signature="e#1450#1451#0" expanded="true" />
             <element signature="e#1484#1485#0" expanded="true" />
           </folding>
+=======
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/thread/DeadLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/thread/ThreadLocalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/thread/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/thread/WaitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="23" />
+>>>>>>> 100754385d8c30384784feb945eeb110acf28ca5
         </state>
       </provider>
     </entry>

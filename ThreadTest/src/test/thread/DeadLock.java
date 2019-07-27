@@ -1,8 +1,11 @@
 package test.thread;
 
+<<<<<<< HEAD
 import java.sql.Time;
 import java.util.concurrent.TimeUnit;
 
+=======
+>>>>>>> 100754385d8c30384784feb945eeb110acf28ca5
 public class DeadLock {
     private static Object work = new Object();
     private static Object money = new Object();
