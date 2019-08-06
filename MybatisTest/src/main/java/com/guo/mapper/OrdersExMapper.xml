@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+<!--使用resultType来实现1:1-->
+<mapper namespace="com.guo.mapper.OrdersExMapper">
+
+    <select id="queryOrderUser" resultType="com.guo.po.OrdersEx">
+        select
+          orders.*,
+          user.username,
+          user.sex,
+          user.address
+        from
+          orders , user
+        where
+          orders.user_id = user.id;
+    </select>
+
+
+    <!--定义resultMap-->
+    <resultMap id="myMap" type="com.guo.po.Orders">
+        <!--先定义orders-->
+        <id column="id" property="id"/>
+        <result column="user_id" property="userid"/>
+        <result column="number" property="number"/>
+        <result column="createtime" property="createtime"/>
+        <result column="note" property="note"/>
+        <!--定义user    order和user之间是1对1的关系， 从order到user是1对1的关系，使用assocication-->
+        <association property="user" javaType="com.guo.po.User">
+            <id column="user_id" property="id"/>
+            <result column="username" property="username"/>
+            <result column="sex" property="sex"/>
+            <result column="address" property="address"/>
+        </association>
+
+
+        <collection property="user" ofType="com.guo.po.User">
+        <id column="user_id" property="id"/>
+        <result column="username" property="username"/>
+        <result column="sex" property="sex"/>
+        <result column="address" property="address"/>
+        </collection>
+
+    </resultMap>
+
+    <!--我的目标就是查询orders表-->
+    <select id="queryOrderUserResultMap" resultMap="myMap">
+        select
+          user.*,
+          orders.user_id,
+          orders.number,
+          orders.createtime
+        from
+          user,orders
+
+        where
+          user.id = orders.user_id;
+    </select>
+
+</mapper>
