@@ -1,0 +1,27 @@
+package com.guo.bean;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class SpringTest {
+
+    private Person person = null;
+    @Before
+    public void testInitial(){
+        //获取person、
+        ApplicationContext context = new ClassPathXmlApplicationContext
+                ("applicationContext.xml");
+        person = (Person) context.getBean("person");
+
+    }
+    @Test
+    public void testMethod(){
+       // Person person = new Person();
+        person.sayHello();
+        System.out.println("pName = "+person.getpName());
+
+    }
+
+}
