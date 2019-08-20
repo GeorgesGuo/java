@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/spring_dynamic_proxy/pom.xml" />
         <option value="$PROJECT_DIR$/spring_aop_annotation/pom.xml" />
         <option value="$PROJECT_DIR$/spring_aop_config/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_el/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_JDBC/pom.xml" />
       </list>
     </option>
   </component>

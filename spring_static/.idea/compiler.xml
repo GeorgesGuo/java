@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring_el" />
+        <module name="spring_static" />
+        <module name="spring_JDBC" />
+        <module name="spring_dynamic_proxy" />
         <module name="spring_aop_annotation" />
         <module name="spring_aop_config" />
-        <module name="spring_dynamic_proxy" />
-        <module name="spring_static" />
       </profile>
     </annotationProcessing>
   </component>

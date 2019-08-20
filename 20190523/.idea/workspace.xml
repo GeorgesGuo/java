@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21531a83-c541-426e-997d-debab07b8439" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../DS/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DS/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MybatisTest/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MybatisTest/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MybatisTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MybatisTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MybatisTest/src/main/java/com/guo/mapper/OrdersExMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MybatisTest/src/main/java/com/guo/mapper/OrdersExMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MybatisTest/target/classes/com/guo/mapper/OrdersExMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MybatisTest/target/classes/com/guo/mapper/OrdersExMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_static/spring_el/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_static/spring_el/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_static/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_static/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_static/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_static/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring_static/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_static/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring_static/spring_static.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -82,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/src/MinStack.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
-              <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -121,9 +119,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="24" />
-    <option name="width" value="1278" />
-    <option name="height" value="1032" />
+    <option name="x" value="513" />
+    <option name="y" value="9" />
+    <option name="width" value="981" />
+    <option name="height" value="1044" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -234,7 +233,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="704" extended-state="7" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.118835896" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -282,7 +280,7 @@
     <entry file="file://$PROJECT_DIR$/src/MinStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
         </state>
       </provider>
     </entry>
