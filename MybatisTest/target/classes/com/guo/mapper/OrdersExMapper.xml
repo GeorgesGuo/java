@@ -45,7 +45,7 @@
 
     </resultMap>
 
-    <!--我的目标就是查询orders表-->
+
     <select id="queryOrderUserResultMap" resultMap="myMap">
         select
           user.*,

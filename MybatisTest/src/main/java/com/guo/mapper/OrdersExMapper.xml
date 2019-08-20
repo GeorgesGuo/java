@@ -21,13 +21,13 @@
 
     <!--定义resultMap-->
     <resultMap id="myMap" type="com.guo.po.Orders">
-        <!--先定义orders-->
+        <!--定义orders-->
         <id column="id" property="id"/>
         <result column="user_id" property="userid"/>
         <result column="number" property="number"/>
         <result column="createtime" property="createtime"/>
         <result column="note" property="note"/>
-        <!--定义user    order和user之间是1对1的关系， 从order到user是1对1的关系，使用assocication-->
+        <!--定义user  order到user是1对1的关系，使用assocication-->
         <association property="user" javaType="com.guo.po.User">
             <id column="user_id" property="id"/>
             <result column="username" property="username"/>
@@ -45,7 +45,7 @@
 
     </resultMap>
 
-    <!--我的目标就是查询orders表-->
+
     <select id="queryOrderUserResultMap" resultMap="myMap">
         select
           user.*,
