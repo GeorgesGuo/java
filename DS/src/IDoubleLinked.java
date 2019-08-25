@@ -13,7 +13,8 @@ boolean contains(int key);
 int remove(int key);
 // 删除所有值为key的节点
  void removeAllKey(int key);
-// 得到单链表的长度 int getLength();
+// 得到单链表的长度
+int getLength();
 void display();
  void clear();
 

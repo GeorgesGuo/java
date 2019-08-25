@@ -66,19 +66,19 @@
     <bean id="edit" class="org.springframework.beans.factory.config.CustomEditorConfigurer">
         <property name="customEditors">
             <map>
-                <entry key="java.util.Date" value="com.ming.bean2.DateEditProperties"/>
+                <entry key="java.util.Date" value="com.guo.bean2.DateEditProperties"/>
             </map>
         </property>
     </bean>
 
-    <bean id="userinfo" class="com.ming.bean.UserInfo">
+    <bean id="userinfo" class="com.guo.UserInfo">
         <property name="username" value="lisi"/>
         <!--references-->
         <property name="person" ref="myPersonId"/>
     </bean>
 
 
-    <bean id="myPersonId" class="com.ming.bean.Person">
+    <bean id="myPersonId" class="com.guo.Person">
         <property name="pName" value="zhansan"/>
         <property name="pAge">
             <value>10</value>

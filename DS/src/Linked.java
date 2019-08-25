@@ -9,6 +9,10 @@ public class Linked implements ILinked {
             this.data = data;
             this.next = null;
         }
+
+        public int getData() {
+            return data;
+        }
     }
     //单链表属性
     private Node head;
@@ -177,5 +181,146 @@ public class Linked implements ILinked {
         }
         this.head = null;
 
+    }
+
+
+    // 反转一个单链表
+    public Node reverseList() {
+        Node reverseHead = null;//反转后新节点的头
+        Node cur =this.head;//cur代表当前需要反转的结点
+        Node prev = null ;//cur的前驱
+        while (cur != null){
+            Node curNext = cur.next;
+            if(curNext == null){
+                reverseHead = cur;
+            }
+            cur.next = prev;
+            prev = cur;
+            cur = curNext;
+        }
+        return reverseHead;
+    }
+    //打印指定节点开始的数据
+    public void  show (Node newHead){
+        Node cur = newHead;
+        while (cur!=null){
+            System.out.print(cur.data+" ");
+            cur = cur.next;
+        }
+        System.out.println();
+    }
+
+    //找到单链表的中间节点
+    public Node middleNode() {
+        Node cur = this.head;
+        int len = getLength()/2;
+        for (int i = 0; i <len ; i++) {
+            cur = cur.next;
+        }
+        return cur;
+    }
+
+    //输入一个链表，输出该链表中倒数第k个结点。
+    public Node FindKthToTail(int k) {
+        if(this.head == null|| k <= 0 ){//|| k > getLength()
+            return null;
+        }
+        Node fast = this.head;
+        Node slow = this.head;
+        while (k-1>0){
+            if(fast.next != null){
+                fast = fast.next;
+                k--;
+            }else {
+                System.out.println("无此节点");
+                return null;
+            }
+        }
+        while (fast.next != null){
+            slow = slow.next;
+            fast = fast.next;
+        }
+        return slow;
+    }
+
+    // 以给定值x为基准将链表分割成两部分
+    public Node partition(int x) {
+       Node beforeS = null;
+       Node beforeE = null;
+       Node afterS = null;
+       Node afterE = null;
+       Node pHead = this.head;
+       while (pHead != null){
+           Node pHeadNext = pHead.next;
+           pHead.next = null;
+           if(pHead.data<x){
+               if(beforeS == null){
+                   beforeS = pHead;
+                   beforeE = beforeS;
+               }else {
+                   beforeE.next = pHead;
+                   beforeE =beforeE.next;
+               }
+           }else {
+               if(afterS == null){
+                   afterS = pHead;
+                   afterE = afterS;
+               }else {
+                   afterE.next = pHead;
+                   afterE = afterE.next;
+               }
+           }
+           pHead = pHeadNext;
+       }
+       if (beforeS == null){
+           return afterS;
+       }
+       beforeE.next = afterS;//单链表进行拼接
+       return beforeS;
+    }
+
+    //判断单链表是否有环 I
+    public boolean hasCycle() {
+        Node fast = this.head;
+        Node slow = this.head;
+        while (fast != null && fast.next != null){
+            fast = fast.next.next;
+            slow = slow.next;
+            if(fast == slow){
+                return  true;
+            }
+        }
+        return false;
+    }
+    //单链表是否有环
+    public void  creatLoop(){
+        Node cur = this.head;
+        while (cur.next != null){
+            cur = cur.next;
+        }
+        cur.next = this.head.next.next;
+    }
+    //判断单链表是否有环 II
+    //给定一个链表，返回链表开始入环的第一个节点。 如果链表无环，则返回 null
+    public Node detectCycle() {
+        Node fast = this.head;
+        Node slow = this.head;
+        while (fast != null && fast.next != null){
+            fast = fast.next.next;
+            slow = slow.next;
+            if(fast == slow){
+                break;
+            }
+        }
+        //没有环返回null；
+        if(fast == null && fast.next == null){
+            return null;
+        }
+        slow = this.head;
+        while (fast != slow){
+            fast = fast.next;
+            slow = slow.next;
+        }
+        return slow;
     }
 }
